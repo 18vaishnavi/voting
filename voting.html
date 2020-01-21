@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title> Voting
+		</title>
+		<script type="text/javascript">
+		var x=0;
+		var y = 0;
+		function c()
+		{
+		x++;
+		document.getElementById('count1').innerHTML =x;
+		}
+		function c1()
+		{
+		y++;
+		document.getElementById('count2').innerHTML =x;
+		}
+		</script>
+		<style>
+		.cont
+		{
+		float:left;
+		}
+		.vote2
+		{
+		float:left;
+		margin-left:50px;
+		}
+		</style>
+		
+	</head>
+	<body>
+	<table border"1" color="indigo";>
+
+	<div class="vote">
+		<div class="cont">
+			<p id="count1"></p>
+			<img src="E:\p.jpg"  alt="P" style="width:250px" >
+			<h4><b>Pooja Menaria</b></h4>
+			<button type="button" onclick="c()">Vote Pooja</button>
+		</div>
+		
+		<div class="vote2">
+			<p id="count2"></p>
+			<img src="E:\p.jpg"  alt="P" style="width:250px" >
+			<h4><b>Vaishnavi Gupta</b></h4>
+			<button type="button" onclick="c1()">Vote Vaishnavi</button>
+		</div>
+		
+		
+	</div>
+	
+
+	</table>
+	</body>
+</html>
