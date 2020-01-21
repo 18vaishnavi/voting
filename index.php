@@ -1,1 +1,1 @@
-<?php include_oce("voting.html");?>
+<?php include_once("home.html"); ?>
